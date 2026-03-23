@@ -1,0 +1,17 @@
+PROYECTO: API DE AUTENTICACIÓN - TU ESPACIO LITERARIO
+DESARROLLADOR: Thalynavia
+TECNOLOGÍA: PHP + Archivos Planos
+
+LISTA DE ENDPOINTS:
+
+1. REGISTRO DE USUARIOS
+   - URL: http://localhost:4000/registro.php
+   - MÉTODO: POST
+   - PARÁMETROS: usuario, contrasena
+   - DESCRIPCIÓN: Recibe las credenciales y las almacena en el archivo usuarios.txt.
+
+2. INICIO DE SESIÓN (LOGIN)
+   - URL: http://localhost:4000/login.php
+   - MÉTODO: POST
+   - PARÁMETROS: usuario, contrasena
+   - DESCRIPCIÓN: Valida si el usuario y la contraseña existen en el archivo usuarios.txt.
